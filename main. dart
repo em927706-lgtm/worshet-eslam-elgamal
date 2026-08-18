@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+void main() { runApp(const MyApp()); }
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'ورشة دهانات اسلام الجمال',
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(appBar: AppBar(title: Text('مرحبا')), body: Center(child: Text('ورشة اسلام الجمال'))),
+    );
+  }
+}
